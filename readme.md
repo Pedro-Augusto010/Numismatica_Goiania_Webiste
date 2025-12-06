@@ -1,8 +1,4 @@
-# Projeto Integrador Parte 1, Parte 2 e Parte 3
-
-
-
-# Numismática Goiânia — Loja de Colecionáveis Online 🪙 (Projeto Integrador Parte 1)
+# Numismática Goiânia — Loja de Colecionáveis Online 🪙 
 
 ## Índice
 
@@ -148,203 +144,39 @@ README.md
 
 ---
 
-## Etapas Realizadas
-
-| Etapa                        | Data          | Responsável         | Observações                       |
-|-----------------------------|---------------|---------------------|----------------------------------|
-| Escolha do tema e escopo     | [09/10/2025]| [Pedro Augusto]| Definição do negócio e público   |
-| Protótipo no Figma           | [11/10/2025]| [Carlos Eduardo]| Criação do layout e fluxo        |
-| Desenvolvimento HTML/CSS    | [13/10/2025]| [Pedro Augusto]| Codificação das páginas          |
-| Documentação do projeto      | [15/10/2025]| [Carlos Eduardo]| Elaboração do README.md          |
-
-## Pessoas autoras
-
-- Pedro Augusto Neves Ferreira
-- Carlos Eduardo Costa da Silva
-
----
-
-## Próximos Passos
-
-O projeto continuará evoluindo com as seguintes melhorias planejadas:
-
-- [ ] Implementar sistema de carrinho de compras funcional.
-- [ ] Adicionar autenticação de usuários com cadastro e login.
-- [ ] Criar versão multilíngue para ampliar o público.
-- [ ] Realizar testes de usabilidade com usuários reais e ajustar o design.
-- [ ] Documentar API e backend (caso desenvolvida futuramente).
-
-Estas funcionalidades e aprimoramentos permitirão ampliar a usabilidade e a profissionalização do site.
-
----
-
 ## Link do Protótipo no Figma
-
-
 
 O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo visualizar a navegação e interatividade planejadas:
 
 [Acesse o Protótipo no Figma 👈](https://www.figma.com/design/eldaeelMQH3L76bBz9QAWT/Projeto-Integrador-Front-End?node-id=0-1&t=7ChOfYA4VOgfjMb1-1)
 
-
-# Numismática Goiânia — Loja de Colecionáveis Online 🪙 (Projeto Integrador Parte 2)
-
-## Observações Iniciais
-
-- O que já está funcionando bem?
-
-  O design do site, as disposições dos cards, a acessibilidade, os formulários, os links, os botões e a organização do site como um todo já estão em um nível satifastório, porém ainda há espaço para melhorias pontuais.
-  
-- Quais elementos HTML já repetem em várias páginas?
-
-  O cabeçalho (header), o menu de navegação (nav) e o rodapé (footer) são idênticos em todas as páginas do site. Já os cards de produtos seguem a mesma formatação   em todas as páginas de venda, diferenciando-se apenas quanto as informações e imagens especifícas de cada produto.
-  A página "Fale conosco" é a que mais se difere das outras, pois apresenta um card de contatos e um card de formulário com opção de lista.
-  
-- Onde o layout "quebra" ou fica estranho?
-
-  O layout do site se mantém estável e visualmente equilibrado em diferentes tamanhos de tela, sem apresentar quebras ou distorções perceptíveis. A estrutura foi    organizada de forma coerente, garantindo boa legibilidade e navegação fluida em todas as resoluções.
-
-- Quais melhorias fariam diferença real para o usuário do pequeno negócio?
-
-  Algumas melhorias que fariam diferença real para o usuário incluem o aprimoramento da responsividade em dispositivos móveis e a otimização do tempo de
-  carregamento das páginas, essas melhorias tornariam a navegação mais ágil, intuitiva e agradável.
-
-## Componentes reutilizáveis adicionados
-
-- Após percebemos que o header, o footer e o menu lateral eram idênticos em todas as páginas do site, decidimos implementar a reutilização de componentes com o JavaScript, desse modo não há mais a necessidade de alterar estes componentes em cada uma das páginas do site, já que ao alterar a semântica no arquivo do componente (footer.html, header.html, nav.html) todas as páginas já recebem a atualização.
-
-## Interações adicionadas
-
-- Foi adicionado o botão de "Voltar ao Topo" no footer da página para facilitar a navegação do usuário, uma vez que o mesmo não precisará rolar até o início para voltar ao topo da página, bastando apenas clicar no novo botão adicionado.
-
-- Foram adicionados efeitos de hover mais elaborados para deixar a página mais interativa e sofisticada visualmente.
-
-## Ajustes realizados após Lighthouse
-
-- Segundo a auditoria do Lighthouse o site apresenta nota 57 no quesito perfomance, isto se deve ao grande volume de imagens presentes na pasta img. Para melhorar a perfomance do site, as imagens tiveram os seus tamanhos reduzidos.
-
-- Os requisitos de Acessibilidade e Melhores Práticas receberam 96 pontos e SEO recebeu 91 pontos.
-  
-## Layout em Diferentes Telas
-
-- O layout se adapta bem nos dispostivos (Mobile, Tablet, Desktop), as imagens redimensionam corretamente, os textos ficam legíveis, o menu funciona perfeitamente e os espaçamentos são adequados em todos os dispositivos.
-
-- Os breakpoints do site estão devidamente ajustados.
-
-## Integrações Externas
-
-- O negócio não conta com endereço físico , por isso não foi adicionada a localização do Google Maps.
-
-- O site conta com Botão de WhatsApp que cria um link direto para o WhatsApp do negócio.
-
-- O site conta com Botão de Instagram que abre a página oficial do negócio no Instagram.
-
-## Plano de Melhorias
-
-- Pretendemos aprimorar a responsividade da página “Fale Conosco”, que ainda não se adapta completamente a diferentes tamanhos de tela como as demais seções do site.
-  
-- Almejamos aumentar a modularização do projeto para melhorar a nota de desempenho no Lighthouse.
-
-- Melhorar a organização do código, inserindo novos comentários que facilitem futuras manutenções.
-
-
-# Numismática Goiânia — Loja de Colecionáveis Online 🪙 (Projeto Integrador Parte 3)
-
 ## Acesso ao site
 
-- Link do GitHub Pages: https://adsstudies10-eng.github.io/Projeto-Integrador-Parte-3-/
+- Link do GitHub Pages: 
 
 - Captura de Tela do Site Publicado: [Captura de Tela](img/Printnumismatica.jpg)
 
 - Data de Publicação: 17/11/2025
 
-## Otimizações Realizadas
-
-- Revisamos a estrutura final do site para garantir organização e consistência.
-
-- Otimizamos todas as imagens utilizando o TinyPNG.
-
-- Minificamos o arquivo CSS com o CSS Minifier.
-
-- Revisamos os metadados essenciais para melhorar SEO e compatibilidade.
-
-- Criamos e aplicamos um favicon para reforçar a identidade visual.
 
 ## Testes Realizados
 
-- Testamos o site nos navegadores Brave, Firefox, Chrome e Edge, e ele apresentou ótimo desempenho em todos. Também realizamos testes em um computador e em um iPhone 14, garantindo que tudo funcionasse corretamente em ambos os dispositivos.
+- Testei o site nos navegadores Brave, Firefox, Chrome e Edge, e ele apresentou ótimo desempenho em todos. Também realizei testes em um computador e em um iPhone 14, garantindo que tudo funcionasse corretamente em ambos os dispositivos.
 
 - [Clique para ver o funcionamento da página nos diferentes navegadores](docs/testes-navegadores)
 
 - [Clique para ver a responsividade da página nos diferentes dispositivos](docs/testes-responsividade)
 
 
-## Reflexão Individual
-
-### Pedro Augusto
-
-- Aprendizados Técnicos:
-
-  Ao longo do desenvolvimento do código, a área em que mais evoluí foi, sem dúvida, o CSS, nele aprendi a usar o :root para declarar variáveis e tornar o estilo mais organizado, além de trabalhar de forma mais eficiente com cards de produtos, estruturando melhor o layout e o espaçament, além de aprimorar os efeitos de hover com sobreposição, criando interações mais fluidas e visualmente mais interessantes.
-
-  Também aprendi sobre a importância de elaborar uma paleta de cores coerente, ajudando a reforçar a identidade visual do projeto, além do mais, desenvolvi também um entendimento mais profundo sobre a disposição dos elementos na tela, alinhamento e hierarquia visual, garantindo que a navegação fosse agradável e intuitiva. Por último, creio que a responsividade foi outro ponto de conhecimento, pois aprendi a certificar que a página funcionasse bem em diferentes dispositivos.
-
-  Já quanto ao maior desafio de todo o processo, este foi sem dúvidas o ajuste do CSS para que a página ficasse bonita, coerente e equilibrada, respeitando tanto o conteúdo quanto o público-alvo. Porém, ao superar o desafio, observo que o mesmo foi essencial para minha evolução, já que agora, sinto que domino o CSS muito melhor do que antes.
-
-
-- Aprendizados de Processo:
-
-  Creio que o trabalho em dupla foi uma expreriência positiva e que facilitou e acelerou o desenvolvimento do projeto. O principal desafio foi alinhar as ideias e garantir que o estilo do código permanecesse consistente entre nós, para isso dividimos as tarefas de acordo com as aptidões de cada um, por exemplo, eu decidi ficar com o css, pois a parte visual me agrada mais, já o Carlos se encarregou de cuidar da parte documental do trabalho.
-
-  A comunicação constante facilitou a correção de erros no projeto, a revisão das etapas e a troca de ideias para melhorias futuras, o que deixou o processo mais rápido e eficiente. Portanto, creio que o que mais deu certo no nosso trabalho foi justamente essa colaboração constante, onde um completava o trabalho do outro, fazendo com que o  processo fosse mais leve e eficiente.
-
-- Desafios Enfrentados:
-
-  Acredito que o maior desafio do projeto foi ajustar o CSS para que o site ficasse realmente agradável, bonito e responsivo, assim, ajustar cores, espaçamentos, proporções e comportamento dos elementos em diferentes telas exigiu bastante paciência e muitas revisões, porém, superamos esse desafio com testes constantes, revisões em dupla e bastante atenção aos detalhes, ajustando pouco a pouco até chegar a um resultado satisfatório.
-
-  Se pudéssemos voltar no tempo, provavelmente começaríamos a planejar o CSS de forma mais estruturada desde o início, definindo variáveis, padrões de espaçamento e regras de responsividade antes de começar a montar as páginas, acredito que isso teria facilitado bastante o desenvolvimento e evitado retrabalho.
-
-
-### Carlos Eduardo
-
-- Aprendizados Técnicos:
-
-Durante esta etapa, aprimorei significativamente a estruturação semântica de páginas HTML, criando múltiplas páginas temáticas como acessorios.html, colecionaveis.html, faleconosco.html e cedulas.html, cada uma com layout consistente e responsivo. Aprofundei o uso de CSS3, centralizando personalizações em style.css, explorando grids e flexbox para alinhar imagens de acessórios, moedas e cédulas em diferentes contextos visuais. O desafio principal foi garantir que imagens de diferentes resoluções (moedas comemorativas, cédulas estrangeiras, acessórios de organização como cápsulas e coin holders) fossem exibidas de modo uniforme, com classes reutilizáveis e padronizadas na folha de estilo. Além disso, melhorei a integração entre páginas por meio de links de navegação clara, incluindo botões de contato e organização de conteúdo visual em galerias adaptáveis.
-
-
-- Aprendizados de Processo:
-
-  O trabalho em dupla foi estruturado por áreas: um focou na aplicação do layout responsivo nas páginas de produtos (utilizando flexbox para galerias de imagens e itens colecionáveis), enquanto o outro concentrou-se no ajuste das seções descritivas e páginas informativas (como a página de contato e as descrições dos itens colecionados). Organizamos o desenvolvimento através de checkpoints: ao concluir seções importantes (como agrupamento de imagens da pasta /img e catálogo visual de moedas), realizávamos revisões mútuas focadas tanto em usabilidade quanto acessibilidade (ex: uso de alt nas imagens e contraste nas cores).
-
-
-- Desafios Enfrentados:
-
-O maior desafio prático foi a padronização visual no grid de exibição – imagens variam muito de proporção e qualidade, exigindo testes e ajustes repetidos no CSS, como definição de max-width, uso estratégico de object-fit: cover e aplicação de sombras para destacar itens valiosos (ex: cédulas antigas e moedas comemorativas). Para solucionar, refatoramos a estrutura das galerias: a escolha de flexbox e grid permitiu melhor adaptação independente do tamanho das imagens inseridas no repositório. Se recomeçássemos, investiríamos mais tempo em padronização dos arquivos de imagem e em prototipação visual no Figma, antes da montagem em HTML.
-
-## Reflexão da Dupla
-
-- Evolução do projeto:
-
-  Melhoramos a organização do código, modularizamos os elementos padrões em todas as páginas do site (header, nav e footer), minificamos o CSS, reduzimos o tamanho das imagens   para a nota de performance do site no Lighthouse, fizemos melhorias na responsividade de acordo com os feedbacks do Lighthouse e melhoramos a identidade visual do site.
-  Acreditamos que a maior melhoria do projeto foi na parte de organização e modularização do código e na responsividade, pois a identidade visual já estava bem definida desde    a Parte 1.
-  Por fim, avaliamos que o projeto final cumpre com os objetivos estabelecidos atendendo a proposta inicial.
- 
-- Relevância para o negócio:
-  
-  Entendemos que o site elaborado realmente agregaria valor ao pequeno negócio, pois oferece uma presença digital clara, organizada e capaz de alcançar clientes que hoje só      encontram a Numismática por meio do Instagram. Se pudéssemos apresentar o projeto ao dono, destacaríamos como o site melhora a visibilidade, transmite profissionalismo,        facilita a navegação pelos produtos e cria uma experiência mais confiável para o cliente, além de demonstrar que o site traria mais receita ao negócio. Também explicaríamos    que o catálogo estruturado, o design limpo e a navegação responsiva ajudam a fortalecer a identidade do negócio e ampliar as vendas. Sem dúvida usaríamos este projeto como     portfólio, porque ele demonstra evolução técnica, domínio de HTML e CSS, preocupação com experiência do usuário e capacidade de construir uma solução completa e funcional.
-
-## Próximos Passos e Melhorias Futuras
+## Melhorias Futuras
 
 - Melhorias Técnicas Planejadas:
 
-  Acreditamos que o projeto ainda possa receber algumas melhorias técnicas que tornariam o site mais moderno e funcional, como a implementação de um menu interativo, com animações suaves e abertura lateral em telas menores, facilitando a navegação, além da aplicação de técnicas avançadas de CSS, como animações com keyframes, grid mais elaborado e implementação de um tema claro e escuro, permitindo que o usuário escolha o tema  que preferir.
+  Acredito que o projeto ainda possa receber algumas melhorias técnicas que tornariam o site mais moderno e funcional, como a implementação de um menu interativo, com animações suaves e abertura lateral em telas menores, facilitando a navegação, além da aplicação de técnicas avançadas de CSS, como animações com keyframes, grid mais elaborado e implementação de um tema claro e escuro, permitindo que o usuário escolha o tema que preferir.
   
-- Conhecimentos a Aprofundar:
-  
-  Para dar continuidade ao projeto, desejamos aprofundar nossos conhecimentos em JavaScript avançado, para criar interações mais dinâmicas e recursos inteligentes, como filtros e buscas em tempo real, também pretendemos apronfundar os conhecimentos em CSS, incluindo Flexbox, Grid e animações, para tornar o layout mais fluido e sofisticado. Por último, pretendemos ampliar nosso conhecimento sobre acessibilidade web (WCAG), aplicando boas práticas que garantam uma experiência inclusiva e confortável para todos os usuários.
-  
-- Aplicação em Disciplinas Futuras:
 
-  Acreditamos que a rica experiência com CSS, organização de layout, responsividade e otimização vai servir como base sólida para criar interfaces mais profissionais desde o início, servindo como auxílio para a matéria de Interação Humano Computador - IHC, por exemplo. Já o conhecimento adquirido sobre testes, revisão em dupla e atenção aos detalhes será útil para qualquer trabalho prático que envolva desenvolvimento. Por fim, esperamos que a compreensão sobre usabilidade e experiência do usuário nos ajudará a realizar projetos profissionais mais responsivos e funcionais.
+  
+
+
 
 
