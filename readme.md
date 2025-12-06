@@ -152,8 +152,8 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 ## Acesso ao site
 
-- Link do GitHub Pages: 
-
+- Link do GitHub Pages: https://pedro-augusto010.github.io/Numismatica_Goiania_Webiste/
+  
 - Captura de Tela do Site Publicado: [Captura de Tela](img/Printnumismatica.jpg)
 
 - Data de Publicação: 17/11/2025
@@ -176,6 +176,7 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
   
 
   
+
 
 
 
